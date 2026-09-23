@@ -1,0 +1,67 @@
+{
+    "name": "Floorit - Sports Jam - Octodemon",
+    "description": "This is Floorit, a racing game with fast cars, close calls, and winding roads. Prove you have what it takes to be the fastest!",
+    "dependencies": {
+        "device": "*",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.2.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "arcade-sprite-events": "github:riknoll/arcade-sprite-events#dc93eec8412053ebbd2b8f01cf5b6ae285d28900",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0",
+        "arcade-text": "github:pelikhan/arcade-image-text#v0.0.4",
+        "TilemapPath": "github:UnsignedArduino/TilemapPath#27ff80b905e9a311d3e36aecbf38fd1fd23af8ca",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.1",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.1",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "BetterSettings": "github:sargedev/bettersettings#2023.5.1",
+        "BetterArrays": "github:sargedev/betterarrays#v1.2.2",
+        "sprite-scaling": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.0",
+        "tag": "v4.0.14",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/a33ec9537bc6c5fada2a3b02aac57a4bc9a10803",
+        "target": "4.1.25",
+        "pxt": "12.2.34",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#f5edba",
+        "#9d303b",
+        "#d26471",
+        "#e4943a",
+        "#c0c741",
+        "#647d34",
+        "#34859d",
+        "#17434b",
+        "#7ec4c1",
+        "#584563",
+        "#8c8fae",
+        "#3e2137",
+        "#d79b7d",
+        "#9a6348",
+        "#1f0e1c"
+    ]
+}
